@@ -1,0 +1,31 @@
+ 
+    .carousel,
+    .carousel-inner,
+    .carousel-item,
+    .carousel-item img {
+      height: 50%;
+      width: 100;
+    }
+
+    .carousel-item img {
+      object-fit: cover;
+    }
+
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    
+    .carousel-title {
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      font-size: 2rem;
+      z-index: 2;
+      text-shadow: 2px 2px 5px black;
+    }
