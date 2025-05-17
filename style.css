@@ -1,4 +1,3 @@
- 
   .carousel,
     .carousel-inner,
     .carousel-item,
@@ -41,3 +40,11 @@
       height: 260px;
       object-fit: cover;
     }
+    #gallery {
+      background-color: rgb(113, 95, 13);
+    }
+    .skills{
+      font-size: 1.5rem;
+      color: white;
+    } 
+ 
